@@ -17,7 +17,8 @@ for n_gram in n_gram_ls:
 
 max_val = max(n_gram_dict, key = lambda x: n_gram_dict[x])
 
-print('max2gram:', max_val, n_gram_dict[max_val])
+print(max_val)
+#print('max2gram:', max_val, n_gram_dict[max_val])
 
 # num_val = 0
 
